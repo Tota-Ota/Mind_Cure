@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ai.css">
+    <script src="ai.js" defer></script>
+    <title>AI</title>
+</head>
+
+<body>
+    <div class="alan-btn"></div>
+
+<script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "b5ff4996d3a09cfba2b3694d90d4ff692e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "go:back") {
+        //call client code that will react on the received command
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+</script>
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/img1.jpeg" style="border-radius: 50%;">
+                </div>
+                <div class="mindcure">
+                    MindCure
+                </div>
+            </a>
+
+        </div>
+
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+
+                <a class="characters hamburgerStuff" href="articles.html">Articles</a>
+                <!-- <a class="music hamburgerStuff" href="help.html">FAQ</a> -->
+                <a class="about" href="ai.html">AI</a>
+                <a class="contact hamburgerStuff" href="help.html">Help</a>
+            </div>
+            <div class="menuHamburger">
+                <div class="menuHamburgerBtn"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ai" style="display: flex;">
+        <div class="intro">
+            <h1>Meet MindCure AI</h1>
+            <h2>Your Personal ChatBot</h2>
+        </div>
+        <img class="aiimg" src="resources/chatbot.svg">
+    </div>
+</body>
+
+</html>

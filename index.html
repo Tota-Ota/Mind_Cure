@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="landingPage.css" rel="stylesheet">
+    <title>MindCure</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="resources/paifang2.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop>
+            <source src="resources/touhouBackground.mp4" type="video/mp4">
+            </src>
+        </video>
+
+        <audio id="backgroundMusic" class="bgm" src="resources/touhouBackgroundMusicMixed2.mp3" loop></audio>
+    </div>
+
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href="index.html">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="resources/img1.jpeg" style="border-radius: 50%;">
+                </div>
+                <div class="mindcure">
+                    MindCure
+                </div>
+            </a>
+
+        </div>
+
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+
+                <a class="characters hamburgerStuff" href="articles.html">Articles</a>
+                <a class="about" href="ai.html">AI</a>
+                <!-- <a class="music hamburgerStuff" href="help.html">FAQ</a> -->
+                <a class="contact hamburgerStuff" href="help.html">Help</a>
+            </div>
+            <div class="menuHamburger">
+                <div class="menuHamburgerBtn"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="layer0">
+        <div class="mindcure" style="font-size: 30px;">
+            Mindcure
+        </div>
+        <p>Mental illness is not a choice,<br> but recovery is</p>
+    </div> -->
+
+
+    <div class="layer1">
+
+        <div class="layer1Container">
+            <div class="layer1Left">
+                <div class="greetings">
+                    We’re here for you.
+                </div>
+
+                <div class="chatNowContainer">
+                    <a class="chatNow" href="ai.html">Chat Now</a>
+                </div>
+            </div>
+            <div class="layer1Right">
+                <img class="layer1Image" src="resources/chatbot.svg">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="layer2">
+        <div class="card">
+            <div class="products">
+                <div class="product active" product-id="1" product-color="#D18B49">
+                    <a href="articles/article1.html">
+                        <div class="thumbnail"><img src="resources/img4.jpeg" />
+                        </div>
+                        <h1 class="title">For Young People Looking for Help</h1>
+
+                    </a>
+                </div>
+                <div class="product" product-id="2" product-color="#542F13">
+                    <a href="articles/article2.html">
+                        <div class="thumbnail"><img src="resources/img2.jpeg" />
+                        </div>
+                        <h1 class="title">For Parents and Caregivers</h1>
+
+                    </a>
+                </div>
+                <div class="product" product-id="3" product-color="#A5AAAE">
+                    <a href="articles/article3.html" style="margin-left: 50px;">
+                        <div class="thumbnail"><img src="resources/img3.jpeg" />
+                        </div>
+                        <h1 class="title">Suicidal Behavior</h1>
+
+                    </a>
+                </div>
+
+                <div class="product" product-id="5" product-color="#C4C8CB">
+                    <a href="articles/article4.html">
+                        <div class="thumbnail"><img src="resources/img6.png" />
+                        </div>
+                        <h1 class="title">For People With Mental Health Problems</h1>
+
+                    </a>
+                </div>
+            </div>
+            <div class="footer"><a class="btn" id="prev" href="#" ripple="" ripple-color="#666666">Prev</a><a
+                    class="btn" id="next" href="#" ripple="" ripple-color="#666666">Next</a></div>
+        </div>
+    </div>
+
+    <div class="layer3">
+
+        <div class="layer3Text">
+            <div class="layer3Quote">
+                "Mental illness is not a choice, but recovery is"
+            </div>
+            <div class="layer3QuoteFrom">
+                -Baba Gulam Bangali
+            </div>
+        </div>
+    </div>
+
+    <div class="layer4">
+        <div class="layer4Bg">
+            <div class="layer4Content">
+                <div class="layer4Text">
+                    <div class="layer4TextHeading">
+                        Contact: xxxxx-xxxxx
+
+                    </div><br>
+                    <div class="layer4TextHeading">
+                        Email: xxx@gmail.com
+                    </div>
+
+                </div>
+                <div class="layer4ContactContainer">
+                    <a class="layer4Contact" href="#">
+                        Contact!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="landingPage.js"></script>
+
+</html>
