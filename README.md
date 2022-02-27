@@ -23,15 +23,11 @@ Tech Stack used is
 ---
 ### Images
 
-![image](https://github.com/Tota-Ota/MindCure/blob/main/resources/Screenshot_2022-02-27_at_10.37.51_PM.png)
-
-![image](https://github.com/Tota-Ota/MindCure/blob/main/resources/Screenshot_2022-02-27_at_10.38.07_PM.png)
-
-![image](https://github.com/Tota-Ota/MindCure/blob/main/resources/Screenshot_2022-02-27_at_10.38.20_PM.png)
-
-![image](https://github.com/Tota-Ota/MindCure/blob/main/resources/Screenshot_2022-02-27_at_10.38.53_PM.jpg)
-
-![image](https://github.com/Tota-Ota/MindCure/blob/main/resources/Screenshot_2022-02-27_at_10.39.08_PM.png)
+![image]"C:\Mind_Cure\resources\Screenshot_2022-02-27_at_10.37.51_PM.png"
+![image]"C:\Mind_Cure\resources\Screenshot_2022-02-27_at_10.38.07_PM.png"
+![image]"C:\Mind_Cure\resources\Screenshot_2022-02-27_at_10.38.20_PM.png"
+![image]"C:\Mind_Cure\resources\Screenshot_2022-02-27_at_10.38.53_PM.jpg"
+![image]"C:\Mind_Cure\resources\Screenshot_2022-02-27_at_10.39.08_PM.png"
 
 ---
 Video link/embed
